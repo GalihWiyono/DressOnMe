@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DressOnMe</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recommendation_image_item">Recommendation Image Item</string>
+    <string name="app_title">DressOnMe</string>
+    <string name="recommendation_outfit">Recommendation Outfit</string>
+    <string name="account_gallery">Account Gallery</string>
+
+    <integer-array name="data_photo">
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+        <item>@drawable/kemejacoklat</item>
+    </integer-array>
+</resources>
