@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/image_gallery"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/kemejaijo"

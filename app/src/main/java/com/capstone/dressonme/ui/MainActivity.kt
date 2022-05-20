@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                     changeFragment(HomeFragment.newInstance())
                 }
                 1 -> {
-                    changeFragment(CameraFragment.newInstance())
+                    changeFragment(ModelFragment.newInstance())
                 }
                 2 -> {
                     changeFragment(UserFragment.newInstance())
