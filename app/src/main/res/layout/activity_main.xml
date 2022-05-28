@@ -22,6 +22,6 @@
         app:mbn_defaultIconColor="@color/disable_icon_color"
         app:mbn_rippleColor="@color/enable_icon_color"
         app:mbn_selectedIconColor="@color/enable_icon_color"
-        app:mbn_shadowColor="@color/background_color"/>
+        app:mbn_shadowColor="@color/shadow_color"/>
 
 </RelativeLayout>

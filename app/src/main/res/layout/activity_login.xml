@@ -64,13 +64,12 @@
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
-        android:backgroundTint="@color/white"
-
+        android:textColor="@color/enable_icon_color"
+        android:background="@drawable/bg_button_log"
+        app:backgroundTint="@color/white"
         android:text="Login"
-        android:textColor="#FC8080"
         android:textSize="20sp"
         android:textAllCaps="false"
-
         />
 
 

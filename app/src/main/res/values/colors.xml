@@ -10,4 +10,5 @@
     <color name="enable_icon_color">#FC8080</color>
     <color name="background_color">#F4EEF2</color>
     <color name="disable_icon_color">#F2C6C6</color>
+    <color name="shadow_color">#FFEAEC</color>
 </resources>
