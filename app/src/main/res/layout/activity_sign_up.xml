@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SignUpActivity"
+    android:background="@drawable/ic_signup"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="SIGN UP"
+        android:textColor="#FC8080"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:text="FOR YOUR ACCOUNT"
+        android:textColor="#FC8080"
+        android:letterSpacing="0.25"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <com.capstone.dressonme.ui.mycustomview.MyNameEditText
+        android:id="@+id/et_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FC8080"
+        android:textColorHint="#FC8080"
+        android:hint="Full Name"
+        android:background="@drawable/outline_signup"
+        android:minHeight="48dp"
+        android:paddingStart="16sp"
+        android:paddingEnd="16sp"/>
+
+    <com.capstone.dressonme.ui.mycustomview.MyEmailEditText
+        android:id="@+id/et_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:hint="Email"
+        android:background="@drawable/outline_signup"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingStart="16sp"
+        android:paddingEnd="16sp"
+        android:textColor="#FC8080"
+        android:textColorHint="#FC8080"
+        />
+
+    <com.capstone.dressonme.ui.mycustomview.MyPasswordEditText
+        android:id="@+id/et_pass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:hint="Password"
+        android:background="@drawable/outline_signup"
+        android:inputType="textPassword"
+        android:textColorHint="#FC8080"
+        android:textColor="#FC8080"
+        android:minHeight="48dp"
+        android:paddingStart="16sp"
+        android:paddingEnd="16sp"
+        app:passwordToggleEnabled="true" />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_button_reg"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
