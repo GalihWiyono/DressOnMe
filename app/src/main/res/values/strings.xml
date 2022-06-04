@@ -7,8 +7,8 @@
     <string name="recommendation_outfit">Recommendation Outfit</string>
     <string name="account_gallery">Account Gallery</string>
 
-    <string name="wrong_password">password must be at least 6 characters</string>
-    <string name="must_fill">Must be filled</string>
+    <string name="wrong_password">Password must be at least 6 characters</string>
+    <string name="must_fill">Name must be at least 6 characters</string>
     <string name="wrong_email">Not a valid email</string>
 
     <integer-array name="data_photo">

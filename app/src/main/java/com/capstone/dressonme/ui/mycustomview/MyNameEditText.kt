@@ -48,7 +48,7 @@ class MyNameEditText : TextInputEditText, View.OnTouchListener {
             }
 
             override fun afterTextChanged(s: Editable) {
-                if (s.toString().isEmpty()) showError()
+                if (s.toString().length < 6) showError()
             }
         })
     }

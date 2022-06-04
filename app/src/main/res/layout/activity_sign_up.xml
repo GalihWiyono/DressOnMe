@@ -76,12 +76,37 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/bg_button_reg"
         android:text="Sign Up"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textAllCaps="false"
         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Already have a account? "
+            android:textColor="@color/enable_icon_color"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_Log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Sign in"
+            android:textColor="#4AC7FF"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
 
 </LinearLayout>
