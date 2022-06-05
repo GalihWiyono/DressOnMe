@@ -25,12 +25,11 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_marginTop="50dp"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:lottie_rawRes="@raw/loading2"
+        app:lottie_rawRes="@raw/loading"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-
         />
 
 
