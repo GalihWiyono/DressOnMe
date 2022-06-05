@@ -11,12 +11,12 @@
 >
     <ImageView
         android:id="@+id/image_view"
-        android:layout_marginTop="200dp"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
         android:contentDescription="picture_logo"
         android:paddingStart="10dp"
-        android:src="@drawable/icon"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
