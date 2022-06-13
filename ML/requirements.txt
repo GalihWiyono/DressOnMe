@@ -1,5 +1,0 @@
-tensorflow
-Flask
-numpy
-opencv-python
-matplotlib
